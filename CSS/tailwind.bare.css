@@ -1,0 +1,143 @@
+.container {
+  width: 100%
+}
+
+@media (min-width: 420px) {
+  .container {
+    max-width: 420px
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px
+  }
+}
+
+.m-auto {
+  margin: auto
+}
+
+.m-gap {
+  margin: 20px
+}
+
+.-m-gap {
+  margin: -20px
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.my-gap {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.mx-gap {
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.-my-gap {
+  margin-top: -20px;
+  margin-bottom: -20px
+}
+
+.-mx-gap {
+  margin-left: -20px;
+  margin-right: -20px
+}
+
+.mt-auto {
+  margin-top: auto
+}
+
+.mr-auto {
+  margin-right: auto
+}
+
+.mb-auto {
+  margin-bottom: auto
+}
+
+.ml-auto {
+  margin-left: auto
+}
+
+.mt-gap {
+  margin-top: 20px
+}
+
+.mr-gap {
+  margin-right: 20px
+}
+
+.mb-gap {
+  margin-bottom: 20px
+}
+
+.ml-gap {
+  margin-left: 20px
+}
+
+.-mt-gap {
+  margin-top: -20px
+}
+
+.-mr-gap {
+  margin-right: -20px
+}
+
+.-mb-gap {
+  margin-bottom: -20px
+}
+
+.-ml-gap {
+  margin-left: -20px
+}
+
+.p-gap {
+  padding: 20px
+}
+
+.py-gap {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.px-gap {
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.pt-gap {
+  padding-top: 20px
+}
+
+.pr-gap {
+  padding-right: 20px
+}
+
+.pb-gap {
+  padding-bottom: 20px
+}
+
+.pl-gap {
+  padding-left: 20px
+}
+
+.text-red {
+  color: #de3618
+}
+
+.text-dodger-blue {
+  color: #22a7f0
+}
