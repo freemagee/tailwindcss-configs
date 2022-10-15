@@ -128,7 +128,7 @@ npx tailwind build CSS/input.css -o CSS/tailwind.realWorld.css -c tailwind.confi
 
 ### What is this useful for?
 
-This is similar to the config I have used on [Responsive Hacker News](https:hn.neilmagee.com). It is an example of how to add your own theme configuration and cherry pick what `corePlugins` and `variants` you want to use.
+This is similar to the config I have used on [Responsive Hacker News](https://github.com/freemagee/hn). It is an example of how to add your own theme configuration and cherry pick what `corePlugins` and `variants` you want to use.
 
 **Note** The real world CSS filesize generated from this config is a lot smaller than the example table below, because in production it uses the `purge` option and removes all class names that are not present in the template files. After minification, the filesize is actually **4Kb**!
 
